@@ -18,9 +18,9 @@ export function createEventEmitter() {
 
   // Dynamic Node and browser-specific code
   if (isNode) {
-    console.log("Node 👊");
+    console.log("Yayy Node 👊");
   } else {
-    console.log("Browser ❤");
+    console.log("Yayy Browser ❤");
   }
 
   print("Created event emitter");
